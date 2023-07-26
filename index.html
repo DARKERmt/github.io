@@ -37,10 +37,10 @@
         document.addEventListener("DOMContentLoaded", function() {
             var containerWidth = document.querySelector(".container").clientWidth;
             var containerHeight = document.querySelector(".container").clientHeight;
-            var buttonWidth = document.querySelector(".btn").clientWidth;
-            var buttonHeight = document.querySelector(".btn").clientHeight;
+            var buttonWidth = document.querySelector("#btn btn-primary btn-sm btn-outline-warning").clientWidth;
+            var buttonHeight = document.querySelector("#btn btn-primary btn-sm btn-outline-warning").clientHeight;
 
-            document.querySelector(".btn").addEventListener("mouseenter", function() {
+            document.querySelector("#btn btn-primary btn-sm btn-outline-warning").addEventListener("mouseenter", function() {
                 var randomPosition = getRandomPosition(containerWidth, containerHeight, buttonWidth, buttonHeight);
                 this.style.left = randomPosition.x + "px";
                 this.style.top = randomPosition.y + "px";
