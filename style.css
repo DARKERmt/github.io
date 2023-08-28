@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+
+.navbar-brand{
+    display: flex;
+}
+.card:hover{
+    transform: translate3d(2px, -2px, -5px);
+}
+
+.card{
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+}
